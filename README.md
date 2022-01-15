@@ -22,3 +22,6 @@
   ```
 * By default it looks file in project root folder.
 * we can move to resource folder and provide classpath
+
+* To check content of keystore file 
+```C:\PROGRA~1\Java\jdk-17\bin\keytool.exe -list -keystore .\server-keystore.jks -v```
