@@ -1,0 +1,9 @@
+server:
+  port: 8443 # Default for https
+
+  ssl:
+    enabled: true # Default for https , false will disable ssl
+    keystore: classpath:server-keystore.jks #default location is project root folder
+    keystore-password: Thrymr@123
+    protocol: TLSv1.2
+
